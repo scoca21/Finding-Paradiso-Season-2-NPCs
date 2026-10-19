@@ -5,17 +5,17 @@
 		<DialogueCueId>EnemyDestroyed</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Target down. Log the location so we can come back to scan it.</Message>
+				<Message>Target down. Log the location for future scans.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>It's going down! Leave a beacon incase there are surviors.</Message>
+				<Message>It's going down! Leave a beacon in case there are surviors.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Splash one. Command, we'll need to circle back to scan the area.</Message>
+				<Message>Splash one. Command, mark the area to circle back for a scan.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -40,7 +40,7 @@
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Appreciate the support, now let us scan these remains for useful data.</Message>
+				<Message>Hostiles down. Let us scan these remains for useful data.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -65,7 +65,7 @@
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Get that position logged so we can scan it later, I want to know what our friend was using on that target.</Message>
+				<Message>Get that position logged so we can scan it later, I want to know what they were using on that target.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -100,7 +100,7 @@
 		<DialogueCueId>UnderFire</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Break formation!</Message>
+				<Message>Break formation! We're getting shot</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -185,7 +185,7 @@
 		<DialogueCueId>Compromised</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Thruster compromised! Bugging out!</Message>
+				<Message>Thruster compromised! Store that data for future review and leave the area.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -205,7 +205,7 @@
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Oh no, not letting them get this ship!</Message>
+				<Message>We are not letting them get this ship!</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -320,7 +320,7 @@
 		<DialogueCueId>Received_AllGood</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Good to hear, returning to mission.</Message>
+				<Message>All good received, may Odin guide you.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -335,7 +335,7 @@
 		<DialogueCueId>Sending_SOS</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Launch the buoy for the distress signal! We're not going to be able to handle this one on our own!</Message>
+				<Message>Launch the buoy for the distress signal! The data suggests we're not going to be able to handle this one on our own!</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -395,7 +395,7 @@
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Resume our search for Valhalla, so we can see our Kin again.</Message>
+				<Message>We lost the signal. Resume our search for Valhalla.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -425,27 +425,17 @@
 		<DialogueCueId>AreaRestriction_Warning</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Let the record show a restricted area warning is active; the next decision remains empirical.</Message>
+				<Message>A restricted area warning is active, make your next choice carefully.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The ravens would carry this finding: a restricted area warning is active; evidence outranks rumor.</Message>
+				<Message>This is a restricted area. Please leave immediately.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>A restricted area warning is active; compare the reading with the last observation.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The omen has a physical cause: a restricted area warning is active. Test it before acting.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Under Odin's eye, a restricted area warning is active. Check instruments before course.</Message>
+				<Message>A restricted area warning is active. The data suggests you should leave.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -470,27 +460,17 @@
 		<DialogueCueId>ShipLanding</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Readout confirms that the ship is beginning its landing approach; preserve the measurement in the archive.</Message>
+				<Message>Readout confirms the ship is beginning its landing approach.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Archive this result -- the ship is beginning its landing approach. Let the next order follow the data.</Message>
+				<Message>The ship is beginning its landing approach.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>No saga is needed: the ship is beginning its landing approach. Mark the coordinates and proceed.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Let the record show the ship is beginning its landing approach; the next decision remains empirical.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The ravens would carry this finding: the ship is beginning its landing approach; evidence outranks rumor.</Message>
+				<Message>The ship is beginning its landing approach. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -500,27 +480,17 @@
 		<DialogueCueId>Cargoship_InitRole</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Under Odin's eye, the cargo ship assignment is beginning. Check instruments before course.</Message>
+				<Message>Under Odin's eye, the cargo ship assignment is beginning.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>By measured sign, the cargo ship assignment is beginning. Continue the survey while the signal holds.</Message>
+				<Message>The cargo ship assignment is starting. Continue the survey while the signal holds.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>In the ledger of the living, the cargo ship assignment is beginning. Keep the instruments steady.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Readout confirms that the cargo ship assignment is beginning; preserve the measurement in the archive.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Archive this result -- the cargo ship assignment is beginning. Let the next order follow the data.</Message>
+				<Message>The cargo ship assignment is beginning. Keep the instruments steady.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -530,27 +500,17 @@
 		<DialogueCueId>Patrol_InitRole</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>The ravens would carry this finding: the patrol assignment is beginning; evidence outranks rumor.</Message>
+				<Message>The patrol assignment is beginning.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The patrol assignment is beginning; compare the reading with the last observation.</Message>
+				<Message>The patrol assignment is starting. Be ready for data collection.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The omen has a physical cause: the patrol assignment is beginning. Test it before acting.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Under Odin's eye, the patrol assignment is beginning. Check instruments before course.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>By measured sign, the patrol assignment is beginning. Continue the survey while the signal holds.</Message>
+				<Message>Patrol assignment commencing. Stay alert.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -560,27 +520,17 @@
 		<DialogueCueId>Scout_InitRole</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Archive this result -- the scout assignment is beginning. Let the next order follow the data.</Message>
+				<Message>The scout assignment is beginning.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>No saga is needed: the scout assignment is beginning. Mark the coordinates and proceed.</Message>
+				<Message>The scout assignment is starting. Be ready for data collection.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Let the record show the scout assignment is beginning; the next decision remains empirical.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The ravens would carry this finding: the scout assignment is beginning; evidence outranks rumor.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The scout assignment is beginning; compare the reading with the last observation.</Message>
+				<Message>Scout assignment commencing. Stay alert.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -590,27 +540,17 @@
 		<DialogueCueId>Scout_InitiateScan</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>By measured sign, the scout scan is beginning. Continue the survey while the signal holds.</Message>
+				<Message>The scout scan is beginning.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>In the ledger of the living, the scout scan is beginning. Keep the instruments steady.</Message>
+				<Message>The scout scan is starting. Be ready for data collection.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Readout confirms that the scout scan is beginning; preserve the measurement in the archive.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Archive this result -- the scout scan is beginning. Let the next order follow the data.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>No saga is needed: the scout scan is beginning. Mark the coordinates and proceed.</Message>
+				<Message>Scout scan commencing. Stay alert.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -620,27 +560,17 @@
 		<DialogueCueId>Scout_FoundTarget</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>The scout has found a target; compare the reading with the last observation.</Message>
+				<Message>The scout has found a target. Check database for matches.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The omen has a physical cause: the scout has found a target. Test it before acting.</Message>
+				<Message>The scout has found a target. Hold while we gather more information.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Under Odin's eye, the scout has found a target. Check instruments before course.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>By measured sign, the scout has found a target. Continue the survey while the signal holds.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>In the ledger of the living, the scout has found a target. Keep the instruments steady.</Message>
+				<Message>The scout has found a target. Keep the instruments steady.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -650,27 +580,17 @@
 		<DialogueCueId>Scout_NotFoundTarget</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>No saga is needed: the scout found no target. Mark the coordinates and proceed.</Message>
+				<Message>The scout found no target. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Let the record show the scout found no target; the next decision remains empirical.</Message>
+				<Message>The scout found no target. Keep the instruments steady.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The ravens would carry this finding: the scout found no target; evidence outranks rumor.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The scout found no target; compare the reading with the last observation.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The omen has a physical cause: the scout found no target. Test it before acting.</Message>
+				<Message>The scout found no target. Compare the reading with the previous data to confirm.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -680,27 +600,22 @@
 		<DialogueCueId>Scout_NearTarget</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>In the ledger of the living, the scout is closing on its target. Keep the instruments steady.</Message>
+				<Message>The scout is closing on its target. Keep the instruments steady.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Readout confirms that the scout is closing on its target; preserve the measurement in the archive.</Message>
+				<Message>The scout is closing on its target.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Archive this result -- the scout is closing on its target. Let the next order follow the data.</Message>
+				<Message>The scout is closing on its target. Scan for any identifying properties.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>No saga is needed: the scout is closing on its target. Mark the coordinates and proceed.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Let the record show the scout is closing on its target; the next decision remains empirical.</Message>
+				<Message>The scout is closing on its target. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -710,27 +625,22 @@
 		<DialogueCueId>Scout_NearTarget_Timeout</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>The omen has a physical cause: the scout search has timed out near the target. Test it before acting.</Message>
+				<Message>The scout search has timed out near the target. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Under Odin's eye, the scout search has timed out near the target. Check instruments before course.</Message>
+				<Message>The scout has timed out near the target. Compare the reading with the previous data to confirm.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>By measured sign, the scout search has timed out near the target. Continue the survey while the signal holds.</Message>
+				<Message>The scout search has timed out near the target. Maintain course and continue the survey.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>In the ledger of the living, the scout search has timed out near the target. Keep the instruments steady.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Readout confirms that the scout search has timed out near the target; preserve the measurement in the archive.</Message>
+				<Message>Readout confirms that the scout search has timed out near the target; preserve the measurement in the database.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -740,27 +650,17 @@
 		<DialogueCueId>Scout_TransmitLocation</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Let the record show the scout is transmitting the target location; the next decision remains empirical.</Message>
+				<Message>The scout is transmitting the target location.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The ravens would carry this finding: the scout is transmitting the target location; evidence outranks rumor.</Message>
+				<Message>The scout is transmitting the target location. Maintain course towards target.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The scout is transmitting the target location; compare the reading with the last observation.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The omen has a physical cause: the scout is transmitting the target location. Test it before acting.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Under Odin's eye, the scout is transmitting the target location. Check instruments before course.</Message>
+				<Message>The scout is transmitting the target location. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -770,27 +670,17 @@
 		<DialogueCueId>Raider_ClearKPA</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Readout confirms that the raider area is clear of known player activity; preserve the measurement in the archive.</Message>
+				<Message>Readout confirms the raider area is clear of known player activity; preserve the measurement in the database.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Archive this result -- the raider area is clear of known player activity. Let the next order follow the data.</Message>
+				<Message>The raider area is clear of known player activity.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>No saga is needed: the raider area is clear of known player activity. Mark the coordinates and proceed.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Let the record show the raider area is clear of known player activity; the next decision remains empirical.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The ravens would carry this finding: the raider area is clear of known player activity; evidence outranks rumor.</Message>
+				<Message>The raider area is clear of activity. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -800,27 +690,17 @@
 		<DialogueCueId>Raider_DetectedEnemy</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Under Odin's eye, the raider has detected an enemy. Check instruments before course.</Message>
+				<Message>Raider has detected an enemy. Check instrument to ensure accurate course.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>By measured sign, the raider has detected an enemy. Continue the survey while the signal holds.</Message>
+				<Message>The raider has detected an enemy. Continue the survey while the signal holds.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>In the ledger of the living, the raider has detected an enemy. Keep the instruments steady.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Readout confirms that the raider has detected an enemy; preserve the measurement in the archive.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Archive this result -- the raider has detected an enemy. Let the next order follow the data.</Message>
+				<Message>The raider has detected an enemy. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -830,27 +710,17 @@
 		<DialogueCueId>Fighter_InitCombatType</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>The ravens would carry this finding: the fighter combat profile is active; evidence outranks rumor.</Message>
+				<Message>The fighter combat profile is active.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The fighter combat profile is active; compare the reading with the last observation.</Message>
+				<Message>The fighter combat profile is active. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The omen has a physical cause: the fighter combat profile is active. Test it before acting.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Under Odin's eye, the fighter combat profile is active. Check instruments before course.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>By measured sign, the fighter combat profile is active. Continue the survey while the signal holds.</Message>
+				<Message>The fighter combat profile is active. Continue the survey while the signal holds.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
