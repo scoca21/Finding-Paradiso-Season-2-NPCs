@@ -690,7 +690,7 @@
 		<DialogueCueId>Raider_DetectedEnemy</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Raider has detected an enemy. Check instrument to ensure accurate course.</Message>
+				<Message>Raider has detected an enemy. Check instruments to ensure accurate course.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -710,7 +710,7 @@
 		<DialogueCueId>Fighter_InitCombatType</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>The fighter combat profile is active.</Message>
+				<Message>The fighter combat profile is active. Check instruments to ensure accurate course.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -720,7 +720,7 @@
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>The fighter combat profile is active. Continue the survey while the signal holds.</Message>
+				<Message>The fighter combat profile is active. Preserve the update in the database.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -730,27 +730,17 @@
 		<DialogueCueId>Gunship_InitCombatType</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>Archive this result -- the gunship combat profile is active. Let the next order follow the data.</Message>
+				<Message>The gunship combat profile is active. Check instruments to ensure accurate course.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>No saga is needed: the gunship combat profile is active. Mark the coordinates and proceed.</Message>
+				<Message>The gunship combat profile is active. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Let the record show the gunship combat profile is active; the next decision remains empirical.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The ravens would carry this finding: the gunship combat profile is active; evidence outranks rumor.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>The gunship combat profile is active; compare the reading with the last observation.</Message>
+				<Message>The gunship combat profile is active. Preserve the update in the database.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
@@ -760,27 +750,17 @@
 		<DialogueCueId>Freighter_InitCombatType</DialogueCueId>
 		<Entries>
 			<Entry>
-				<Message>By measured sign, the freighter combat profile is active. Continue the survey while the signal holds.</Message>
+				<Message>The freighter combat profile is active. Check instruments to ensure accurate course.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>In the ledger of the living, the freighter combat profile is active. Keep the instruments steady.</Message>
+				<Message>The freighter combat profile is active. Mark the coordinates and proceed.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
 			<Entry>
-				<Message>Readout confirms that the freighter combat profile is active; preserve the measurement in the archive.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>Archive this result -- the freighter combat profile is active. Let the next order follow the data.</Message>
-				<AudioId />
-				<Weights>1</Weights>
-			</Entry>
-			<Entry>
-				<Message>No saga is needed: the freighter combat profile is active. Mark the coordinates and proceed.</Message>
+				<Message>The freighter combat profile is active. Preserve the update in the database.</Message>
 				<AudioId />
 				<Weights>1</Weights>
 			</Entry>
